@@ -58,8 +58,8 @@
   let running = false;
 
   const FILES = [
-    { name:"drum", url:"assets/drum.wav" },
-    { name:"synth", url:"assets/synthesizer.wav" },
+    { name:"drum", url:"drum.wav" },
+    { name:"synth", url:"synthesizer.wav" },
   ];
 
   async function loadBuffer(url){
